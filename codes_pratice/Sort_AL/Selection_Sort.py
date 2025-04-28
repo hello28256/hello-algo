@@ -21,6 +21,6 @@ def selection_sort(nums:list[int]):
 
 
 if __name__ == "__main__":
-    nums = [4, 1, 3, 1, 5, 2]
+    nums = [4, 1, 3, 1, 5, 2, 5, 3, 5, 6, 2]
     selection_sort(nums)
     print("选择排序完成后 nums =", nums)
